@@ -1747,7 +1747,9 @@ body {
 }
 
 .character-img {
-  width: 450px;
+  width: 28vw;
+  max-width: 350px;
+  min-width: 180px;
   height: auto;
   background: transparent;
   filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.2));
