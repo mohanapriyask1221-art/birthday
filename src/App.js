@@ -33,7 +33,6 @@ import perfectImage from './perfect.jpeg';
 import lilChampImage from './lil-champ.jpeg';
 import samreImage from './samre.jpeg';
 import storyTimeImage from './story-time.jpeg';
-import famImage from './fam.jpeg';
 import twinningImage from './twinning.jpeg';
 import bubblyVibheeImage from './bubbly-vibhee.jpeg';
 import ourFirstSelfieImage from './our-first-selfie.jpeg';
@@ -41,7 +40,6 @@ import whatsappLaughingImage from './whatsapp-laughing.jpeg';
 import theScooterImage from './the-scooter.jpeg';
 import cutiesImage from './cuties.jpeg';
 import myFavouriteGoalieImage from './my-favourite-goalie.jpeg';
-import pookiesImage from './pookies.jpeg';
 import myBabeImage from './my-babe.jpeg';
 import heroHaiHeroImage from './hero-hai-hero.jpeg';
 import theTrioImage from './the-trio.jpeg';
@@ -158,16 +156,6 @@ function CustomizePage({ onNavigate }) {
     }
   }, [countdown]);
 
-  const quotes = [
-    "May your day be as beautiful as you are!",
-    "Here's to another year of amazing memories!",
-    "Wishing you endless happiness!",
-    "May all your dreams come true today!",
-    "You deserve all the love in the world!",
-    "Hope your birthday is as special as you are!",
-    "Sending you all my love today!",
-    "You are my greatest gift!"
-  ];
 
   const emojis = ["❤️", "💕", "💖", "💗", "💘", "💝", "✨", "🌟", "⭐", "🍀", "🌈", "🦋", "🌸", "🌺", "💐", "🎉", "🎊", "🥳", "🎁", "🎂"];
 
