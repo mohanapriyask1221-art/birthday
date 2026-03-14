@@ -1744,17 +1744,20 @@ body {
 .story-scene {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .character-img {
   width: 18vw;
   max-width: 220px;
   min-width: 140px;
+  max-height: 60vh;
   height: auto;
+  object-fit: contain;
 }
 
 .boy-character {
@@ -1792,6 +1795,7 @@ body {
   position: absolute;
   bottom: 20px;
   right: 30%;
+  z-index: 50;
   transform: translateX(50%);
   padding: 15px 40px;
   font-size: 1.2rem;
@@ -1814,6 +1818,7 @@ body {
   position: absolute;
   bottom: 20px;
   left: 30%;
+  z-index: 50;
   transform: translateX(-50%);
   padding: 15px 40px;
   font-size: 1.2rem;
